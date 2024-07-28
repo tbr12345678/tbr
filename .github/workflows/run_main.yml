@@ -1,8 +1,8 @@
 name: run main.py
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' # Runs everyday at 5PM and 2 AM
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
